@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="XYSegmentViewItem" customModule="pageController" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="117" height="54"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="117" height="54"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="2" translatesAutoresizingMaskIntoConstraints="NO" id="JJP-aa-dl3">
+                        <rect key="frame" x="37.5" y="0.0" width="42" height="54"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="JJP-aa-dl3" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="BtG-bO-QIF"/>
+                <constraint firstItem="JJP-aa-dl3" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="KrC-T3-HxL"/>
+                <constraint firstItem="JJP-aa-dl3" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="k7t-Jf-Rue"/>
+                <constraint firstItem="JJP-aa-dl3" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" priority="200" id="uqr-La-yal"/>
+            </constraints>
+            <size key="customSize" width="117" height="54"/>
+            <connections>
+                <outlet property="titleLabel" destination="JJP-aa-dl3" id="5eJ-Pc-Ocl"/>
+            </connections>
+            <point key="canvasLocation" x="67.5" y="56"/>
+        </collectionViewCell>
+    </objects>
+</document>
